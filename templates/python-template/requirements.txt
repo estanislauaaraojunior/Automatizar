@@ -1,0 +1,18 @@
+# Dependências básicas para automação Python
+
+# Automação Web
+selenium==4.16.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Manipulação de dados
+pandas==2.1.4
+openpyxl==3.1.2
+
+# Variáveis de ambiente
+python-dotenv==1.0.0
+
+# Logging e debugging
+colorlog==6.8.0
+
+# Adicione suas dependências específicas abaixo
