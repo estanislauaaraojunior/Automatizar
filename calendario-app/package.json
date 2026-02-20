@@ -1,0 +1,27 @@
+{
+  "name": "calendario-app",
+  "version": "1.0.0",
+  "description": "A simple interactive calendar application.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7"
+  },
+  "keywords": [
+    "calendar",
+    "typescript",
+    "interactive"
+  ],
+  "author": "estanislauaaraojunior",
+  "license": "MIT"
+}
