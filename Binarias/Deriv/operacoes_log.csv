@@ -1,0 +1,2 @@
+timestamp,symbol,direction,stake,duration,result,profit,balance_before,balance_after,ema9,ema21,rsi,adx,macd_hist,consec_losses
+2026-03-19T23:10:46.558692,R_100,SELL,88.52,5,WIN,84.33,8852.34,8936.67,617.60119,617.80593,35.99,20.12,-0.07052,0
