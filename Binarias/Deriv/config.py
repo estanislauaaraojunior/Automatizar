@@ -3,14 +3,19 @@
 #  Edite APENAS este arquivo para ajustar o comportamento.
 # ============================================================
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # carrega variáveis de .env (ignorado se não existir)
+
 # ----- Conta -----
 # True  → opera na conta DEMO (seguro — dinheiro virtual)
 # False → opera na conta REAL (requer TOKEN de conta real + confirmação no terminal)
 DEMO_MODE = True
 
 # ----- Conexão -----
-APP_ID = "1089"            # app_id público para testes; substitua pelo seu
-TOKEN  = "sW9c9VzCcIr6Rtu" # crie em: developers.deriv.com (permissões: trade + read)
+APP_ID = os.environ.get("DERIV_APP_ID", "1089")
+TOKEN  = os.environ["DERIV_TOKEN"]    # defina em .env — crie em: developers.deriv.com
 
 # ----- Instrumento -----
 SYMBOL        = "R_100"  # índice sintético 24/7 (sem impacto de notícias)
